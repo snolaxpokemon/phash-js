@@ -28,7 +28,6 @@ if (typeof Module == 'undefined') {
     },
     printErr: text => { 
       stderr.push(text)
-      console.error(text);      
     },
     quit: status=> {
       exitCode = status
